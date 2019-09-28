@@ -1,0 +1,83 @@
+body W{
+ 
+  background:white;
+}
+
+.imgwidth{
+	width: 200px;
+	height: 300px;
+}
+.elementor-element.elementor-element-9de1c4d.elementor-section-height-min-height.elementor-section-boxed.elementor-section-height-default.elementor-section-items-middle.elementor-section.elementor-top-section{
+	
+}
+.social_icons{
+ float:left;/*Размещаем список горизонтально для реализации меню*/
+  margin-right:5px; /*Добавляем отступ у пунктов меню*/
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем отступы*/
+  padding-left: 0; /*убираем отступы*/
+  display: block; 
+  width: 30px;
+
+}
+
+
+.menu_drop >a {
+  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+ 
+  color:#fff; /*меняем цвет ссылок*/
+  padding:0px 15px; /*добавляем отступ*/
+  font-family: arial; /*меняем шрифт*/
+  line-height:50px; /*ровняем меню по вертикали*/
+  display: block; 
+   /*добавляем бордюр справа*/
+  -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+  -o-transition: all 0.3s 0.01s ease;
+  -webkit-transition: all 0.3s 0.01s ease;
+}
+.menu_drop >a:hover {
+ /*добавляем эффект при наведении*/
+
+
+
+}
+.menu_drop >li {
+  float:left; /*Размещаем список горизонтально для реализации меню*/
+  position:relative; /*задаем позицию для позиционирования*/
+}
+     
+    /*Стили для скрытого выпадающего меню*/
+.menu_drop >  li > ul {
+        position:absolute;
+        top:25px;
+        display:none;   
+    }
+     
+    /*Делаем скрытую часть видимой*/
+.menu_drop > ul > li {
+        display:block; 
+        width:250px;  /*Задаем ширину выпадающего меню*/  
+        background-color: #263141;    
+    }
+.menu_drop > ul> li {
+        display:block; 
+        width:250px;  /*Задаем ширину выпадающего меню*/  
+        background-color: #263141;    
+    }
+
+.menu_drop > ul> li > a:hover  {
+        float:none; /*Убираем горизонтальное позиционирование*/
+        background-color: black;
+        color:red;
+    }
+}
+
+.color_text{
+  color: black;
+}
+.prob{
+  color:white;
+  width: 300px
+  height:300px;
+  background-color:red;
+}
