@@ -67,10 +67,10 @@ body W{
 
 .menu_drop > ul> li > a:hover  {
         float:none; /*Убираем горизонтальное позиционирование*/
-        background-color: black;
-        color:red;
+        background-color: #000;
+        color:white;
     }
-}
+
 
 .color_text{
   color: black;
@@ -81,3 +81,22 @@ body W{
   height:300px;
   background-color:red;
 }
+
+.new_class a{
+    color:black;
+}
+
+.new_class a{
+       float:none; /*Убираем горизонтальное позиционирование*/
+        
+        color:black;
+}
+
+.new_class a:hover{
+       float:none; /*Убираем горизонтальное позиционирование*/
+        border-bottom: 0.5px solid white;
+        color:white;
+}
+.q11111 > a:hover{
+border-bottom: 0.5px solid white;
+}  

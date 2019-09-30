@@ -13,3 +13,21 @@ def net_gh(request):
 
 def treni(request):
     return render(request, 'treni.html')
+
+def rapid(request):
+    return render(request, 'rapidshot.html')
+
+def tumba(request):
+    return render(request, 'tumba.html')
+
+def dorojka(request):
+    return render(request, 'dorijka.html')
+      
+def vorota(request):
+    return render(request, 'vorota.html')
+
+def sopernik(request):
+    return render(request, 'sopernik.html')
+
+def duga(request):
+    return render(request, 'duga.html')
